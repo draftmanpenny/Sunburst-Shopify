@@ -8,17 +8,19 @@
       content_for_header
     }}
     <title>{{ page_title }}</title>
-    <div>
-      <nav>
+    <div id="nav-container">
+      <nav id="navbar-wrapper">
         <ul>
           <li>Candles</li>
           <li>Curated Boxes</li>
           <li>Corporate Gifting</li>
         </ul>
       </nav>
+      <a id="img">{{ "logo.svg" | asset_url | img_tag: "Sunburst" | }} </a>
     </div>
   </head>
   <body>
     {{ content_for_layout }}
   </body>
+  <footer></footer>
 </html>
