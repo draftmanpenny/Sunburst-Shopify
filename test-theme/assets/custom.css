@@ -2,7 +2,7 @@
     background-color: #F8EDE8;
     display:flex;
     width: 1000px;
-    height: 675px;
+    height: 775px;
     margin: 0px;
     top: 0px;
     left:0;
@@ -16,7 +16,7 @@
 #navbar-wrapper {
     position: fixed;
     z-index: 666;
-    right:150px;
+    right:130px;
     
   }
 
@@ -74,3 +74,37 @@
     top: 100px;
    
   }
+  body{
+    margin: 0px;
+    font-family: 'Kiwi Maru', serif;
+  }
+
+  #index-title{
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Lemon', cursive;
+  }
+  #bar{
+    background-color:#E8E8E8; 
+    width:auto;
+    height:130px;
+    position: relative;
+    top:675px;
+    position: fixed;
+  }
+  
+
+  @media (min-width:360px){
+    #bar{
+      width:4400px;
+    }
+    #item-box{
+      width:850px;
+    }
+    #btn{
+      right:-1000px;
+    }
+    #btn2{
+      right:-995px;
+    }
+  }
+ 
