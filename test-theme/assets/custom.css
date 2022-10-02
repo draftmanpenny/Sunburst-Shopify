@@ -2,7 +2,7 @@
     background-color: #F8EDE8;
     display:flex;
     width: 1000px;
-    height: 775px;
+    height: 680px;
     margin: 0px;
     top: 0px;
     left:0;
@@ -40,23 +40,19 @@
   }
 
   #btn{
-    position: relative;
-    top: 500px;
-    right: -1200px;
     height: 50px;
-    width:140px;
+    width:250px;
     background-color: #FEF0E4; 
+    font-family: 'Kiwi Maru', serif;
     
   }
 
   #btn2{
-    position: relative;
-    top: 500px;
-    right: -1197px;
     height: 50px;
-    width:140px;
+    width:250px;
     border-color:#000000 ;
     background-color: #FFFFFF; 
+    font-family: 'Kiwi Maru', serif;
     
     
   }
@@ -83,13 +79,31 @@
     font-family: 'Kiwi Maru', serif;
     font-family: 'Lemon', cursive;
   }
+
+  .btn-container{
+    display: flex;
+    width:400px;
+    height: 50px;
+    position: relative;
+    top: 500px;
+    left:1000px;
+  
+    
+
+
+  }
+
+
   #bar{
     background-color:#E8E8E8; 
     width:auto;
-    height:130px;
+    height:120px;
     position: relative;
     top:675px;
     position: fixed;
+    margin:5px;
+    opacity: 25%;
+    
   }
   
 
@@ -101,10 +115,10 @@
       width:850px;
     }
     #btn{
-      right:-1000px;
+      right:-950px;
     }
     #btn2{
-      right:-995px;
+      right:-955px;
     }
   }
  
