@@ -1,12 +1,12 @@
 #item-box{
-    background-color: #F8EDE8;
+    background-color: #3D3B35;
     display:flex;
-    width: 1000px;
-    height: 680px;
+    width: 100%;
+    height: 1000px;
     margin: 0px;
     top: 0px;
-    left:0;
     position:fixed;
+    
 }
 #item-box-message{
     height: 75px;
@@ -16,43 +16,52 @@
 #navbar-wrapper {
     position: fixed;
     z-index: 666;
-    right:130px;
+    right:200px;
     
   }
 
   #nav-container{
     display:flex;
-    height: 50px;
+    height: 75px;
   }
 
   nav li{
     display: inline-block;
     margin: 5px;
     padding:5px;
+    color:#FFFFFF;
+    font-size: 25px;
+    
     
   }
   #item-msg{
     display:flex;
-    width: 450px;
-    position: fixed;
-    right:650px;
-    top: 300px;
+    width: 800px;
+    position: absolute;
+    right:-625px;
+    top: 350px;
+    color:#FFFFFF;
+    font-size: 25px;
   }
 
   #btn{
     height: 50px;
-    width:250px;
-    background-color: #FEF0E4; 
+    width:200px;
+    background-color: #FFF8EB; 
     font-family: 'Kiwi Maru', serif;
+    border-radius:72px;
     
   }
 
   #btn2{
     height: 50px;
-    width:250px;
+    width:200px;
     border-color:#000000 ;
-    background-color: #FFFFFF; 
+    background-color: #EDEDED; 
     font-family: 'Kiwi Maru', serif;
+    border-radius:72px;
+    margin-left: 10px;
+    
     
     
   }
@@ -65,9 +74,12 @@
 
   #item-header{
     display:flex;
-    position:fixed;
-    right:675px;
-    top: 100px;
+    position:absolute;
+    width:50px;
+    right:700px;
+    top: 120px;
+    font-size: 37px;
+    
    
   }
   body{
@@ -78,47 +90,22 @@
   #index-title{
     font-family: 'Kiwi Maru', serif;
     font-family: 'Lemon', cursive;
+    color:#FFF8EB;
   }
 
   .btn-container{
     display: flex;
-    width:400px;
+    flex-direction:row;
+    width:350px;
     height: 50px;
-    position: relative;
-    top: 500px;
-    left:1000px;
+    position: absolute;
+    top: 725px;
+    right:325px;
+  
   
     
 
 
   }
 
-
-  #bar{
-    background-color:#E8E8E8; 
-    width:auto;
-    height:120px;
-    position: relative;
-    top:675px;
-    position: fixed;
-    margin:5px;
-    opacity: 25%;
-    
-  }
   
-
-  @media (min-width:360px){
-    #bar{
-      width:4400px;
-    }
-    #item-box{
-      width:850px;
-    }
-    #btn{
-      right:-950px;
-    }
-    #btn2{
-      right:-955px;
-    }
-  }
- 
