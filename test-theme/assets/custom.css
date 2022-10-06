@@ -5,7 +5,7 @@
     height: 1000px;
     margin: 0px;
     top: 0px;
-    position:fixed;
+    position:absolute;
     
 }
 #item-box-message{
@@ -16,7 +16,7 @@
 #navbar-wrapper {
     position: fixed;
     z-index: 666;
-    right:200px;
+    right:100px;
     
   }
 
@@ -30,7 +30,7 @@
     margin: 5px;
     padding:5px;
     color:#FFFFFF;
-    font-size: 25px;
+    font-size: 18px;
     
     
   }
@@ -38,29 +38,37 @@
     display:flex;
     width: 800px;
     position: absolute;
-    right:-625px;
-    top: 350px;
+    left:550px;
+    top: 300px;
     color:#FFFFFF;
     font-size: 25px;
   }
 
   #btn{
-    height: 50px;
-    width:200px;
+    height: 60px;
+    width:300px;
     background-color: #FFF8EB; 
     font-family: 'Kiwi Maru', serif;
     border-radius:72px;
+    border-color:#000000 ;
+    border-width: 1px;
+    border-style: solid;
+    
+    
     
   }
 
   #btn2{
-    height: 50px;
-    width:200px;
+    height: 60px;
+    width:300px;
     border-color:#000000 ;
+    border-width: 1px;
+    border-style: solid;
     background-color: #EDEDED; 
     font-family: 'Kiwi Maru', serif;
     border-radius:72px;
     margin-left: 10px;
+    
     
     
     
@@ -69,6 +77,8 @@
   #img{
     z-index: 700;
     margin-left: 20px;
+    width: 10px;
+    height:10px;
     
   }
 
@@ -97,18 +107,19 @@
   .btn-container{
     display: flex;
     flex-direction:row;
-    width:350px;
-    height: 50px;
+    width:375px;
+    height: 70px;
     position: absolute;
-    top: 725px;
-    right:325px;
+    top: 675px;
+    right:650px;
+    justify-content:center;
   }
 
 .item-header-container2{
   flex-wrap: wrap;
   margin: 10px;
   position: absolute;
-  top:100px;
+  top:117px;
   left:165px;
   
   
@@ -116,8 +127,31 @@
 }
 .item-container{
   position: relative;
-  left:580px;
+  left:500px;
+  height: 300px;
+  font-size:45px;
+}
+.bar{
+  width:100%;
+  height:149px;
+  background-color:#E8E8E8;
+  opacity: 75%;
+  position: relative;
+  bottom:-925px;
+  
+}
+.main-container{
+  display: flex;
+  position: relative;
+  bottom:-1000px;
 }
 
 
-  §
+.main-container h2{
+  font-size: 55px;
+}
+.main-container p{
+  font-size: 28px;
+  width:658px
+  
+}
