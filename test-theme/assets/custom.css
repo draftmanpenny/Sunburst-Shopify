@@ -1,157 +1,174 @@
-#item-box{
-    background-color: #3D3B35;
-    display:flex;
-    width: 100%;
-    height: 1000px;
-    margin: 0px;
-    top: 0px;
-    position:absolute;
-    
+#item-box {
+  background-color: #3D3B35;
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  margin: 0px;
+  top: 0px;
+  position: absolute;
+
 }
-#item-box-message{
-    height: 75px;
+
+#item-box-message {
+  height: 75px;
 
 }
 
 #navbar-wrapper {
-    position: fixed;
-    z-index: 666;
-    right:100px;
-    
-  }
+  position: fixed;
+  z-index: 666;
+  right: 100px;
 
-  #nav-container{
-    display:flex;
-    height: 75px;
-  }
+}
 
-  nav li{
-    display: inline-block;
-    margin: 5px;
-    padding:5px;
-    color:#FFFFFF;
-    font-size: 18px;
-    
-    
-  }
-  #item-msg{
-    display:flex;
-    width: 800px;
-    position: absolute;
-    left:550px;
-    top: 300px;
-    color:#FFFFFF;
-    font-size: 25px;
-  }
+#nav-container {
+  display: flex;
+  height: 75px;
+}
 
-  #btn{
-    height: 60px;
-    width:300px;
-    background-color: #FFF8EB; 
-    font-family: 'Kiwi Maru', serif;
-    border-radius:72px;
-    border-color:#000000 ;
-    border-width: 1px;
-    border-style: solid;
-    
-    
-    
-  }
+nav li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 18px;
 
-  #btn2{
-    height: 60px;
-    width:300px;
-    border-color:#000000 ;
-    border-width: 1px;
-    border-style: solid;
-    background-color: #EDEDED; 
-    font-family: 'Kiwi Maru', serif;
-    border-radius:72px;
-    margin-left: 10px;
-    
-    
-    
-    
-  }
 
-  #img{
-    z-index: 700;
-    margin-left: 20px;
-    width: 10px;
-    height:10px;
-    
-  }
+}
 
-  #item-header{
-    display:flex;
-    position:absolute;
-    width:auto;
-    height:auto;
-    right:700px;
-    top: 120px;
-    font-size: 37px;
-    
-   
-  }
-  body{
-    margin: 0px;
-    font-family: 'Kiwi Maru', serif;
-  }
+#item-msg {
+  display: flex;
+  width: 800px;
+  position: absolute;
+  left: 550px;
+  top: 300px;
+  color: #FFFFFF;
+  font-size: 25px;
+}
 
-  #index-title1, #index-title2{
-    font-family: 'Kiwi Maru', serif;
-    font-family: 'Lemon', cursive;
-    color:#FFF8EB;
-  }
+#btn {
+  height: 60px;
+  width: 300px;
+  background-color: #FFF8EB;
+  font-family: 'Kiwi Maru', serif;
+  border-radius: 72px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
 
-  .btn-container{
-    display: flex;
-    flex-direction:row;
-    width:375px;
-    height: 70px;
-    position: absolute;
-    top: 675px;
-    right:650px;
-    justify-content:center;
-  }
 
-.item-header-container2{
+
+}
+
+#btn2 {
+  height: 60px;
+  width: 300px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #EDEDED;
+  font-family: 'Kiwi Maru', serif;
+  border-radius: 72px;
+  margin-left: 10px;
+
+
+
+
+}
+
+#img {
+  z-index: 700;
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+
+}
+
+#item-header {
+  display: flex;
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 700px;
+  top: 120px;
+  font-size: 37px;
+
+
+}
+
+body {
+  margin: 0px;
+  font-family: 'Kiwi Maru', serif;
+}
+
+#index-title1,
+#index-title2 {
+  font-family: 'Kiwi Maru', serif;
+  font-family: 'Lemon', cursive;
+  color: #FFF8EB;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 70px;
+  position: absolute;
+  top: 675px;
+  right: 650px;
+  justify-content: center;
+}
+
+.item-header-container2 {
   flex-wrap: wrap;
   margin: 10px;
   position: absolute;
-  top:117px;
-  left:165px;
-  
-  
-  
+  top: 117px;
+  left: 165px;
+
+
+
 }
-.item-container{
+
+.item-container {
   position: relative;
-  left:500px;
+  left: 500px;
   height: 300px;
-  font-size:45px;
+  font-size: 45px;
 }
-.bar{
-  width:100%;
-  height:149px;
-  background-color:#E8E8E8;
+
+.bar {
+  width: 100%;
+  height: 149px;
+  background-color: #E8E8E8;
   opacity: 75%;
   position: relative;
-  bottom:-925px;
-  
+  bottom: -925px;
+
 }
-.main-container{
+
+.main-container {
   display: flex;
   position: relative;
-  bottom:-1000px;
+  bottom: -1000px;
 }
 
 
-.main-container h2{
+.main-container h2 {
   font-size: 55px;
 }
-.main-container p{
+
+.main-container p {
   font-size: 28px;
-  width:658px
-  
+  width: 658px
+}
+
+.main-container2{
+  background-color: #3D3B35;
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  margin: 0px;
+  position: relative;
+  top:1500px;
 }
